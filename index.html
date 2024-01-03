@@ -76,13 +76,17 @@
             width: 100%;
             height: auto;
         }
-        .flex{ 
+        #contact .container {
+            margin-top: 20px;
+        }
+        .center-column {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-bottom: 70px;
-            }
+            text-align: center;
+        }
+
         footer {
             background-color: #4a696c;
             color: white;
@@ -350,35 +354,40 @@
         </div>
     </div>
 
-    <div id="contact" class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="card-body">
-                    <h2 class="card-title text-center"> <strong> CONTACT</strong></h2>
-                    <p class="descriere">Suntem aici pentru a vă ghida în călătoria voastră către sănătate și bunăstare. Dacă aveți întrebări, sugestii sau pur și simplu doriți să aflați mai multe despre serviciile noastre, nu ezitați să ne contactați! Așteptăm cu nerăbdare să te întâlnim și să te sprijinim în călătoria ta către un stil de viață mai sănătos și activ! </p>
-                </div> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-body">
+                        <h2 class="card-title text-center"> <strong> CONTACT</strong></h2>
+                        <p class="descriere">Suntem aici pentru a vă ghida în călătoria voastră către sănătate și bunăstare. Dacă aveți întrebări, sugestii sau pur și simplu doriți să aflați mai multe despre serviciile noastre, nu ezitați să ne contactați! Așteptăm cu nerăbdare să te întâlnim și să te sprijinim în călătoria ta către un stil de viață mai sănătos și activ! </p>
+                    </div> 
+                </div>
             </div>
         </div>
     </div>
 </div>
-    <h3 class="buton"> Date de contact:</h3>
-            <div class="flex">
-                <div class="col-md-4">
+        <h3 class="buton"> Date de contact:</h3>
+        <div class="container">
+            <div class="row justify-content-center" style="align-items: center; display:flex;">
+                <div class="col-md-4 center-column">
                     <h4>Adresă</h4>
-                    <p> <a href="https://maps.app.goo.gl/cyUhZp9GW4P3CZJP6" target="_blank">Str. Traian Moșoiu, nr. 71, <br> 400132,<br> Cluj-Napoca, județul Cluj, <br>România </a> </p>
+                    <p><a href="https://maps.app.goo.gl/cyUhZp9GW4P3CZJP6" target="_blank">Str. Traian Moșoiu, nr. 71, <br> 400132,<br> Cluj-Napoca, județul Cluj, <br>România </a></p>
                 </div>
-                <div class="column">
+                <div class="col-md-4 center-column">
                     <h4> Telefon:</h4>
-                    <p> +40700000000</p>
+                    <p>+40700000000</p>
                 </div>
-                <div class="column">
+                <div class="col-md-4 center-column">
                     <h4> Program: </h4> 
-                    <p> Luni - Vineri:<br> 5:00-23:00 </p>
+                    <p>Luni - Vineri:<br> 5:00-23:00 </p>
                     <p>Sâmbătă:<br> 6:00-18:00 </p>
-                    <p> Duminică:<br> 6:00-13:00 </p>
+                    <p>Duminică:<br> 6:00-13:00 </p>
                 </div>
-            </div> 
+            </div>
+        </div>
     <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.647815817322!2d23.6073491!3d46.771837999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2325fab1fd%3A0x838420097aa3b8ef!2sStrada%20General%20Traian%20Mo%C8%99oiu%2071%2C%20Cluj-Napoca%20400394!5e0!3m2!1sro!2sro!4v1700055056694!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+</div>   
     <footer class="footer-content">
             <div class="container">
                 <div class="footer-section">
